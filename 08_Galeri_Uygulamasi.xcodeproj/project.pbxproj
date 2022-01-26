@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6C400B2D27A17D9400C35B6A /* CV_Photo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C400B2B27A17D9400C35B6A /* CV_Photo.swift */; };
+		6C400B2E27A17D9400C35B6A /* CV_Photo.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6C400B2C27A17D9400C35B6A /* CV_Photo.xib */; };
+		6C400B3027A1AFA100C35B6A /* VC_Detail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C400B2F27A1AFA100C35B6A /* VC_Detail.swift */; };
 		6C6C303227A173860069BD4A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C6C303127A173860069BD4A /* AppDelegate.swift */; };
 		6C6C303427A173860069BD4A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C6C303327A173860069BD4A /* SceneDelegate.swift */; };
 		6C6C303627A173860069BD4A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C6C303527A173860069BD4A /* ViewController.swift */; };
@@ -14,9 +17,13 @@
 		6C6C303C27A173860069BD4A /* _8_Galeri_Uygulamasi.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 6C6C303A27A173860069BD4A /* _8_Galeri_Uygulamasi.xcdatamodeld */; };
 		6C6C303E27A173880069BD4A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6C6C303D27A173880069BD4A /* Assets.xcassets */; };
 		6C6C304127A173880069BD4A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6C6C303F27A173880069BD4A /* LaunchScreen.storyboard */; };
+		6C6C304927A174600069BD4A /* DAL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C6C304827A174600069BD4A /* DAL.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6C400B2B27A17D9400C35B6A /* CV_Photo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CV_Photo.swift; sourceTree = "<group>"; };
+		6C400B2C27A17D9400C35B6A /* CV_Photo.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CV_Photo.xib; sourceTree = "<group>"; };
+		6C400B2F27A1AFA100C35B6A /* VC_Detail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VC_Detail.swift; sourceTree = "<group>"; };
 		6C6C302E27A173860069BD4A /* 08_Galeri_Uygulamasi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 08_Galeri_Uygulamasi.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6C6C303127A173860069BD4A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6C6C303327A173860069BD4A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -26,6 +33,7 @@
 		6C6C303D27A173880069BD4A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6C6C304027A173880069BD4A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6C6C304227A173880069BD4A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6C6C304827A174600069BD4A /* DAL.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DAL.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +74,10 @@
 				6C6C303F27A173880069BD4A /* LaunchScreen.storyboard */,
 				6C6C304227A173880069BD4A /* Info.plist */,
 				6C6C303A27A173860069BD4A /* _8_Galeri_Uygulamasi.xcdatamodeld */,
+				6C6C304827A174600069BD4A /* DAL.swift */,
+				6C400B2B27A17D9400C35B6A /* CV_Photo.swift */,
+				6C400B2C27A17D9400C35B6A /* CV_Photo.xib */,
+				6C400B2F27A1AFA100C35B6A /* VC_Detail.swift */,
 			);
 			path = 08_Galeri_Uygulamasi;
 			sourceTree = "<group>";
@@ -131,6 +143,7 @@
 				6C6C304127A173880069BD4A /* LaunchScreen.storyboard in Resources */,
 				6C6C303E27A173880069BD4A /* Assets.xcassets in Resources */,
 				6C6C303927A173860069BD4A /* Main.storyboard in Resources */,
+				6C400B2E27A17D9400C35B6A /* CV_Photo.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -145,6 +158,9 @@
 				6C6C303C27A173860069BD4A /* _8_Galeri_Uygulamasi.xcdatamodeld in Sources */,
 				6C6C303227A173860069BD4A /* AppDelegate.swift in Sources */,
 				6C6C303427A173860069BD4A /* SceneDelegate.swift in Sources */,
+				6C6C304927A174600069BD4A /* DAL.swift in Sources */,
+				6C400B3027A1AFA100C35B6A /* VC_Detail.swift in Sources */,
+				6C400B2D27A17D9400C35B6A /* CV_Photo.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
